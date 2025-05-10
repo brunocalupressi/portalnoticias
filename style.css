@@ -1,0 +1,123 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+.logo {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+
+}
+    
+    
+    .gridp {
+    
+    
+        
+        display: grid;
+        
+      
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        gap: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 1200px;
+
+        grid-template-areas: 
+        
+            'header header header header light light street street'
+            'header header header header light light street street'
+            'header header header header main main main main'
+            'header header header header main main main main'
+            'aside aside traid traid menu menu menu menu'
+            'aside aside traid traid menu menu menu menu'
+            'tras tras tan tan ten ten lan lan'
+            'tras tras tan tan ten ten lan lan'           
+                
+    
+    }
+    
+    .hijo1{
+        
+        grid-area: header;
+      
+        background-color: aqua;
+    }
+    
+    .hijo2{
+       
+        grid-area: street;
+    
+      
+        background-color: palevioletred;
+    }
+    
+    .hijo3{
+        
+        grid-area: aside;
+        background-color: blueviolet;
+    }
+    
+
+    .hijo4{
+    
+        grid-area: menu;
+        background-color:coral ;
+    }
+
+    .hijo5 {
+    
+        grid-area: tras;
+        background-color: aqua;
+    }
+
+    .hijo6{
+    
+        grid-area: ten;
+        background-color:coral ;
+    }
+
+    .hijo7{
+    
+        grid-area: lan;
+        background-color:coral ;
+    }
+
+    .hijo8{
+    
+        grid-area: traid;
+        background-color:coral ;
+    }
+
+    .hijo9{
+    
+        grid-area: main;
+        background-color:coral ;
+    }
+
+    .hijo10{
+    
+        grid-area: tan;
+        background-color:coral ;
+    }
+    
+
+    
+  
+    .def {
+    text-align: center;
+    margin-top: 250px;
+    }
+    
+    .treas {
+        text-align: center;
+        margin-top: 550px;
+        }
+    
+        
